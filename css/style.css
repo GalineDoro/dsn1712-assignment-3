@@ -42,7 +42,8 @@ a {
 #hero {
   height: 600px;
   background-image: url('../images/hands-typing.jpg');
-  background-size: 100%;
+  background-size: cover;
+  background-position: center;
   filter: grayscale(70%);
 
   display: flex;
@@ -55,7 +56,7 @@ h1 {
   max-width: 60%;
   background-color: rgba(0, 0, 0, .5);
   color: #fff;
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 section .flex {
@@ -86,9 +87,9 @@ section .flex {
 
 .grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
+  margin: auto;
 }
 
 .grid article {
@@ -120,6 +121,12 @@ section .flex {
   border-radius: 4px;
 
   margin-top: auto;
+}
+
+#services .grid a:hover,
+#services .grid a:focus {
+  background-color: #fff;
+  color: #414361;
 }
 
 #work h2,
