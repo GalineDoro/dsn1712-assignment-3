@@ -3,6 +3,7 @@
 }
 
 body {
+  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
 }
 
@@ -80,7 +81,8 @@ section .flex {
 }
 
 #services h2 {
-  max-width: 100%;
+  max-width: 70%;
+  margin: 0 auto 16px;
   text-align: center;
   font-size: 2rem;
 }
@@ -131,7 +133,6 @@ section .flex {
 
 #work h2,
 #work p {
-  max-width: 100%;
   text-align: center;
 
 }
@@ -140,7 +141,7 @@ section .flex {
   display: grid;
   gap: 0px;
   grid-template-columns: repeat(6, 1fr);
-  grid-template-rows: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
 }
 
 
@@ -171,7 +172,7 @@ section .flex {
 
 .img-6 {
   grid-column: span 6;
-  grid-row: 3;
+  grid-row: 2;
 }
 
 .img img {
